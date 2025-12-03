@@ -1,3 +1,6 @@
+<?php
+    include('navbar.php');
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,100 +10,100 @@
     <link href="src/output.css" rel="stylesheet">
 </head>
 
-<style>
-    /* Fondo en escritorio */
-    body {
-        background-image: url(imagen/fondo.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+<body class="bg-cover bg-no-repeat bg-center min-h-screen"
+      style="background-image: url('imagen/fondo.webp');">
 
-    /* Fondo en móvil */
-    @media (max-width: 768px) {
-        body {
-            background-image: none;
-            background-color: white;
-        }
-    }
-</style>
+<!-- Fondo blanco en móvil -->
+<div class="md:hidden fixed inset-0 bg-white -z-10"></div>
 
-<body>
+<div class="flex min-h-screen flex-col justify-center px-6 py-20">
 
-<div class="flex min-h-screen flex-col justify-center px-6 py-12">
-
-    <!-- Logo + título -->
-    <div class="sm:mx-auto sm:w-full sm:max-w-sm text-center">
-        <img src="imagen/lechuzaIluminadaLuna.jpg" alt="Logo" class="h-20 mx-auto">
-        <h2 class="mt-4 text-2xl font-bold text-gray-900">Registrar Nuevo Cliente</h2>
+    <!-- Logo + título en línea -->
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm flex items-center justify-center gap-4">
+        <img src="img/logoInvertido.jpg" alt="Logo" class="h-20">
+        <h2 class="text-2xl font-bold text-gray-900">Registrar Nuevo Cliente</h2>
     </div>
 
     <!-- Contenedor del formulario -->
-    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-md bg-white/80 backdrop-blur 
-                p-8 rounded-2xl shadow-2xl border border-purple-100">
+    <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-lg bg-white/80 backdrop-blur 
+                p-8 rounded-2xl shadow-2xl border border-[#0E247B33]">
 
         <form class="space-y-6">
 
-            <!-- Nombre y Apellido -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Nombres</label>
-                    <input type="text"
-                        class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
-                               focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
-                               placeholder:text-gray-400 transition duration-150"
-                        placeholder="Nombre" required>
-                </div>
+            <!-- Nombre -->
+            <div>
+                <label class="block text-md font-medium text-gray-700 mb-1">Nombres</label>
+                <input type="text"
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="Nombre" required>
+            </div>
 
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Apellidos</label>
-                    <input type="text"
-                        class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
-                               focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
-                               placeholder:text-gray-400 transition duration-150"
-                        placeholder="Apellido" required>
-                </div>
+            <!-- Apellidos -->
+            <div>
+                <label class="block text-md font-medium text-gray-700 mb-1">Apellidos</label>
+                <input type="text"
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="Apellido" required>
             </div>
 
             <!-- Correo -->
             <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Correo Electrónico</label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Correo Electrónico</label>
                 <input type="email"
-                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
-                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
                     placeholder="ejemplo@gmail.com" required>
             </div>
 
             <!-- Contraseña -->
             <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Contraseña</label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Contraseña</label>
                 <input type="password"
-                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
-                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
                     placeholder="Contraseña" required>
             </div>
 
             <!-- Confirmar contraseña -->
             <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Confirmar Contraseña</label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Confirmar Contraseña</label>
                 <input type="password"
-                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
-                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
                     placeholder="Confirmar contraseña" required>
             </div>
 
-            <!-- Botón -->
-            <button 
-                class="w-full py-5 px-4 text-2xl font-semibold 
-                       bg-purple-700 text-white 
-                       hover:bg-purple-600 transition duration-200
-                       shadow-lg hover:shadow-2xl active:scale-95
-                       rounded-3xl border border-purple-800/20
-                       overflow-hidden">
-                Registrar
-            </button>
+            <!-- BOTONES EN UNA LÍNEA -->
+            <div class="flex gap-4 pt-2">
+
+                <!-- Botón Cancelar -->
+                <button 
+                    class="w-1/2 py-3 px-4 text-lg font-semibold text-white
+                           bg-red-600 border border-red-600
+                           hover:bg-red-700
+                           transition duration-200 shadow-md hover:shadow-xl active:scale-95
+                           rounded-lg">
+                    Cancelar
+                </button>
+                
+                <!-- Botón Registrar -->
+                <button 
+                    class="w-1/2 py-3 px-4 text-lg font-semibold text-white
+                           bg-[#0E247B] border border-[#0E247B]
+                           hover:bg-[#122E9B]
+                           transition duration-200 shadow-md hover:shadow-xl active:scale-95
+                           rounded-lg">
+                    Registrar
+                </button>
+
+            </div>
 
         </form>
     </div>

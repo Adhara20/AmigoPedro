@@ -1,16 +1,17 @@
-<nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+<nav class="bg-[#0E247B] shadow-lg fixed w-full top-0 z-50">
     <div class="w-full px-4">
         <div class="flex justify-between items-center h-16">
 
             <!-- Comienzo del logo y menú de hamburgesa -->
             <div class="flex items-center">
-                <button id="menuBtn" onclick="abrirMenu()" class="mr-4 text-gray-700 hover:text-blue-700 focus:outline-none">
+                <button id="menuBtn" onclick="abrirMenu()" class="mr-4 text-white hover:text-gray-500 focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
-                <img class="h-10" src="img/logoAmigoPedro.jpg" alt="CAT(dot)jpeg!">
+                <img class="size-14" src="img/logoAmigoPedro.jpg" alt="logoAmigoPedro">
+                <h2 class="text-white font-semibold text-2xl ml-2">El Amigo Pedro</h2>
             </div>
             <!-- Fin del logo y menú de hamburgesa -->
 
@@ -19,7 +20,7 @@
                 <div class="bg-gradient-to-r from-pink-500 to-blue-500 h-10 w-10 flex justify-center items-center text-gray-200 rounded-full">
                     YOU
                 </div>
-                <h1 class="text-black font-bold">YOUR OWN NAME.</h1>
+                <h1 class="text-white font-bold">NOMBRE USUARIO</h1>
             </div>
             <!-- Fin del nombre de usuario -->
 
