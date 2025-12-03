@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Cliente</title>
+    <title>Editar Cliente</title>
     <link href="src/output.css" rel="stylesheet">
 </head>
 
@@ -18,10 +18,10 @@
 
 <div class="flex min-h-screen flex-col justify-center px-6 py-20">
 
-    <!-- Logo + título en línea -->
+    <!-- Logo y título -->
     <div class="sm:mx-auto sm:w-full sm:max-w-sm flex items-center justify-center gap-4">
         <img src="img/logoInvertido.jpg" alt="Logo" class="h-20">
-        <h2 class="text-2xl font-bold text-gray-900">Registrar Nuevo Cliente</h2>
+        <h2 class="text-2xl font-bold text-gray-900">Editar Cliente</h2>
     </div>
 
     <!-- Contenedor del formulario -->
@@ -32,7 +32,7 @@
 
             <!-- Nombre -->
             <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Nombres <span class="text-red-500 mb-2 font-bold"> * </span></label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Nombres</label>
                 <input type="text"
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
@@ -42,7 +42,7 @@
 
             <!-- Apellidos -->
             <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Apellidos <span class="text-red-500 mb-2 font-bold"> * </span></label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Apellidos</label>
                 <input type="text"
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
@@ -52,7 +52,7 @@
 
             <!-- Correo -->
             <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Correo Electrónico <span class="text-red-500 mb-2 font-bold"> * </span></label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Correo Electrónico</label>
                 <input type="email"
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
@@ -62,7 +62,7 @@
 
             <!-- Contraseña -->
             <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Contraseña <span class="text-red-500 mb-2 font-bold"> * </span></label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Contraseña</label>
                 <input type="password"
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
@@ -72,7 +72,7 @@
 
             <!-- Confirmar contraseña -->
             <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Confirmar Contraseña <span class="text-red-500 mb-2 font-bold"> * </span></label>
+                <label class="block text-md font-medium text-gray-700 mb-1">Confirmar Contraseña</label>
                 <input type="password"
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
@@ -100,7 +100,7 @@
                            hover:bg-[#122E9B]
                            transition duration-200 shadow-md hover:shadow-xl active:scale-95
                            rounded-lg">
-                    Registrar
+                    Guardar
                 </button>
 
             </div>
@@ -109,6 +109,5 @@
     </div>
 
 </div>
-
 </body>
 </html>
