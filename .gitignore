@@ -60,3 +60,24 @@ __ampps
 # ————————————————
 # (Asegura que no se suban repositorios dentro del repo)
 *.orig
+
+# Dependencias de Node
+node_modules/
+
+# Archivos generados por Tailwind
+src/output.css
+src/output.css.map
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuración local del entorno
+.env
+.env.local
+.env.*.local
