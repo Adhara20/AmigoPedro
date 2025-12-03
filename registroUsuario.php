@@ -3,100 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-     <link href="src/output.css" rel="stylesheet">
+    <title>Registro</title>
+    <link href="src/output.css" rel="stylesheet">
 </head>
-<!-- npx @tailwindcss/cli -i css/tailwind.css -o src/output.css --watch -->
- <style>
-    /* Pantalla normal */
-    body{
+
+<style>
+    /* Fondo en escritorio */
+    body {
         background-image: url(imagen/fondo.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    /* Ocultar fondo para movil */
-    @media (max-width: 768px){
-        body{
-        background-image: none;
-        background-color: white;
+
+    /* Fondo en móvil */
+    @media (max-width: 768px) {
+        body {
+            background-image: none;
+            background-color: white;
+        }
     }
-    }
- </style>
+</style>
+
 <body>
-    <!-- Cuerpo de Formulario -->
-     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg: px-8">
-      <!-- Inicsio de imagen -->
-        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-            <img src="imagen/lechuzaIluminadaLuna.jpg" alt="Logo" class="h-20 mx-auto">
-            <h2 class="text-center text-2xl">Registrarse en Minerva Librery</h2>
-        </div>
-        <!-- Fin imagen -->
-         <!-- Inicio div Formulario -->
-         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form action="">
-        
-            <div class="mt-2 flex gap-4">
-                    <!-- <div class="mt-2"> -->
-                    
-                <!-- </div> -->
-                <div class="w-1/2">
-                    <label for="nombre" class=" text-sm/6 font-medium text-black">Nombre</label>
-                    <input type="text" class="block w-full rounded-md outline-1 outline-offset-1 outline-black" 
-                    placeholder="Nombre..." required>
-                </div>
-                <!-- Fin nombre -->
-                        <!-- <div class="mt-2"> -->
-                <!-- </div> -->
-                <div class="w-1/2">
-                    <label for="apellido" class=" text-sm/6 font-medium text-black">Apellido</label>
-                    <input type="text" class=" block w-full rounded-md outline-1 outline-offset-1 outline-black" 
-                    placeholder="Apellido..." required>
+
+<div class="flex min-h-screen flex-col justify-center px-6 py-12">
+
+    <!-- Logo + título -->
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm text-center">
+        <img src="imagen/lechuzaIluminadaLuna.jpg" alt="Logo" class="h-20 mx-auto">
+        <h2 class="mt-4 text-2xl font-bold text-gray-900">Registrar Nuevo Cliente</h2>
+    </div>
+
+    <!-- Contenedor del formulario -->
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-md bg-white/80 backdrop-blur 
+                p-8 rounded-2xl shadow-2xl border border-purple-100">
+
+        <form class="space-y-6">
+
+            <!-- Nombre y Apellido -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Nombres</label>
+                    <input type="text"
+                        class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
+                               focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                               placeholder:text-gray-400 transition duration-150"
+                        placeholder="Nombre" required>
                 </div>
 
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Apellidos</label>
+                    <input type="text"
+                        class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
+                               focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                               placeholder:text-gray-400 transition duration-150"
+                        placeholder="Apellido" required>
+                </div>
             </div>
-                <!-- fin Apellido -->
-                <div class="mt-2">
-                    <label for="email" class="block text-sm/6 font-medium text-black">Correo</label>
-                </div>
-                <div>
-                    <input type="email" class="block w-full rounded-md outline-1 outline-offset-1 outline-black" 
-                    placeholder="ejemplo@gmail.com" required>
-                </div>
-                <!-- Final del div correo -->
-                 <div class="mt-2">
-                    <label for="password" class="block text-sm/6 font-medium text-black" >Contraseña</label>
-                </div>
-                <div>
-                    <input type="password" class="block w-full rounded-md outline-1 outline-offset-1 outline-black" 
-                    placeholder="Contraseña" required>
-                </div>
-                <!-- Final del div contraseña2 -->
-                 <div class="mt-2">
-                    <label for="password" class="block text-sm/6 font-medium text-black" >Confirmar tu Contraseña</label>
-                </div>
-                <div>
-                    <input type="password" class="block w-full rounded-md outline-1 outline-offset-1 outline-black" 
-                    placeholder="Contraseña" required>
-                </div>
-                 <!-- Cierre div 3 -->
-                  <div class="mt-2">
-                    <button class="flex w-full justify-center rounded-md bg-purple-700 px-3 py-1.5 text-sm/6 font-semibold
-                     text-white hover:bg-purple-300">
-                        Registrarme
-                  </button>
 
-                  </div>
-                  <p class="mt-2 mb-2 text-center">o</p>
-                  <div>
-                    <button class="flex w-full  rounded-md bg-white px-3 py-1.5
-                     text-black hover:bg-gray-100 border-2 text-sm/6 font-semibold">
-                        <img src="imagen/google-logo.webp" alt="Logo Google" class="size-8 rounded-md">
-                        <span class="justify-center ml-10 mt-1 text-base">Registrarme con Google</span>
-                    </button>
-                  </div>            
-            </form>   
-         </div>
-         <!-- Cierre deiv Formularui -->
-     <!-- final Formulario -->
+            <!-- Correo -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Correo Electrónico</label>
+                <input type="email"
+                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="ejemplo@gmail.com" required>
+            </div>
+
+            <!-- Contraseña -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Contraseña</label>
+                <input type="password"
+                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="Contraseña" required>
+            </div>
+
+            <!-- Confirmar contraseña -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Confirmar Contraseña</label>
+                <input type="password"
+                    class="block w-full px-4 py-3 text-lg rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="Confirmar contraseña" required>
+            </div>
+
+            <!-- Botón -->
+            <button 
+                class="w-full py-5 px-4 text-2xl font-semibold 
+                       bg-purple-700 text-white 
+                       hover:bg-purple-600 transition duration-200
+                       shadow-lg hover:shadow-2xl active:scale-95
+                       rounded-3xl border border-purple-800/20
+                       overflow-hidden">
+                Registrar
+            </button>
+
+        </form>
+    </div>
+
+</div>
+
 </body>
 </html>
