@@ -37,7 +37,7 @@
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
-                    placeholder="Nombre" required>
+                    value="Aide" required>
             </div>
 
             <!-- Apellidos -->
@@ -47,7 +47,17 @@
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
-                    placeholder="Apellido" required>
+                    value="Suarez" required>
+            </div>
+
+            <!-- Teléfono -->
+            <div>
+                <label class="block text-md font-medium text-gray-700 mb-1">Teléfono</label>
+                <input type="text"
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    value="+52 55 1234 5678" required>
             </div>
 
             <!-- Correo -->
@@ -57,7 +67,7 @@
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
-                    placeholder="ejemplo@gmail.com" required>
+                    value="aide123@gmail.com" required>
             </div>
 
             <!-- Contraseña -->
@@ -67,7 +77,7 @@
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
-                    placeholder="Contraseña" required>
+                    value="123456" required>
             </div>
 
             <!-- Confirmar contraseña -->
@@ -77,7 +87,7 @@
                     class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
-                    placeholder="Confirmar contraseña" required>
+                    value="123456" required>
             </div>
 
             <!-- BOTONES EN UNA LÍNEA -->
@@ -93,7 +103,7 @@
                     Cancelar
                 </button>
                 
-                <!-- Botón Registrar -->
+                <!-- Botón Guardar -->
                 <button 
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
