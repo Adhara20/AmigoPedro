@@ -59,10 +59,12 @@
             <div class="">
                 <label class="block text-sm font-medium text-gray-400 mb-2">Seleccione el idioma:</label>
             <form>
-                <input type="radio" id="esp" name="fav_language" value="Español">
-                <label class=" text-sm font-medium text-gray-600 mb-2">Español</label><br>
-                <input type="radio" id="ing" name="fav_language" value="Ingles">
-                <label class=" text-sm font-medium text-gray-600 mb-2">Ingles</label><br>
+                <label class=" text-sm font-medium text-gray-600 mb-2">Español 
+                <input type="radio" id="esp" name="idioma" value="Español">
+                </label> <br>
+                <label class=" text-sm font-medium text-gray-600 mb-2">Ingles 
+                <input type="radio" id="ing" name="idioma" value="ingles">
+                </label>
             </form>
           </div>
       </div>
