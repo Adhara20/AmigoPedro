@@ -65,6 +65,16 @@
                     placeholder="Apellido" required>
             </div>
 
+            <!-- Teléfono -->
+            <div>
+                <label class="block text-md font-medium text-gray-700 mb-1">Teléfono</label>
+                <input type="text"
+                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    placeholder="+52 55 1234 5678" required>
+            </div>
+
             <!-- Correo -->
             <div>
                 <label class="block text-md font-medium text-gray-700 mb-1">Correo Electrónico <span class="text-red-500 mb-2 font-bold"> * </span></label>
