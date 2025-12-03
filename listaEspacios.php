@@ -13,19 +13,23 @@
 
 <div class="max-w-6xl mx-auto space-y-6 py-20 px-10">
 
-    <!-- Encabezado -->
+    <!-- Encabezado con buscador y botón -->
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-        <div class="flex">
-            <h1 class="text-5xl font-bold text-[#0d1c57]">Anaqueles</h1>            
+        <div class="flex items-center gap-4">
+            <h1 class="text-5xl font-bold text-[#0d1c57]">Anaqueles</h1>
+            <a href="registrar_anaquel.php" 
+               class="py-2 px-4 bg-green-100 text-green-400 rounded-lg shadow-md border text-green-400 font-bold
+            hover:bg-green-400 hover:text-green-100 transition duration-200">
+                + Agregar Anaquel
+            </a>
         </div>
-        
 
-        <input  type="text" placeholder="Buscar anaquel por número, tipo o ubicación..." class="px-4 py-2 border rounded-lg w-full 
-           sm:w-80 md:w-96 lg:w-[28rem]
-           focus:outline-none focus:ring-2 focus:ring-[#0E247B]">
+        <input type="text" placeholder="Buscar anaquel por número, tipo o ubicación..." 
+               class="px-4 py-2 border rounded-lg w-full sm:w-80 md:w-96 lg:w-[28rem]
+                      focus:outline-none focus:ring-2 focus:ring-[#0E247B]">
     </div>
 
-    <!-- Grid de clientes -->
+    <!-- Grid de anaqueles -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
 
         <!-- Card 1 -->
@@ -50,16 +54,16 @@
             </div>
         </div>
 
-        <!-- Card 1 -->
+        <!-- Card 2 -->
         <div class="bg-white p-6 shadow-lg rounded-2xl border hover:shadow-xl transition">
             <h2 class="text-xl font-semibold">
                 <span class="text-gray-600">Núm. Anaquel:</span> AN-11
             </h2>
             <p class="text-gray-600">
-                <span class="text-gray-400">Para:</span> Articulos para Venta
+                <span class="text-gray-400">Para:</span> Artículos para Venta
             </p>
             <p class="text-gray-600">
-                <span class="text-gray-400">Ubicación:</span> Almacen
+                <span class="text-gray-400">Ubicación:</span> Almacén
             </p>
 
             <div class="flex gap-3 mt-4">
@@ -72,7 +76,7 @@
             </div>
         </div>
 
-        <!-- Card 1 -->
+        <!-- Card 3 -->
         <div class="bg-white p-6 shadow-lg rounded-2xl border hover:shadow-xl transition">
             <h2 class="text-xl font-semibold">
                 <span class="text-gray-600">Núm. Anaquel:</span> AN-10
@@ -81,7 +85,7 @@
                 <span class="text-gray-400">Para:</span> Herramientas
             </p>
             <p class="text-gray-600">
-                <span class="text-gray-400">Ubicación:</span> Almacen
+                <span class="text-gray-400">Ubicación:</span> Almacén
             </p>
 
             <div class="flex gap-3 mt-4">
@@ -95,7 +99,6 @@
         </div>
 
         <!-- Copia las cards restantes si las necesitas -->
-        <!-- Solo duplicas la estructura de arriba -->
 
     </div>
 

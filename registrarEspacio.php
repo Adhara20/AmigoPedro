@@ -81,7 +81,7 @@
             <div class="flex gap-4 pt-2">
 
                 <!-- Botón Cancelar -->
-                <button 
+                <button onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-red-600 border border-red-600
                            hover:bg-red-700
@@ -91,7 +91,7 @@
                 </button>
                 
                 <!-- Botón Registrar -->
-                <button 
+                <button onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
