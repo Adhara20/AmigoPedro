@@ -15,18 +15,22 @@
 
     <!-- Encabezado -->
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-        <div class="flex">
-            <h1 class="text-5xl font-bold text-[#0d1c57]">Clientes</h1>            
+        <div class="flex items-center gap-4">
+            <h1 class="text-5xl font-bold text-[#0d1c57]">Clientes</h1>
+            <!-- Botón Agregar -->
+            <a href="registroCliente.php" class="py-2 px-4 bg-green-100 text-green-400 rounded-lg shadow-md border text-green-400 font-bold
+            hover:bg-green-400 hover:text-green-100 transition duration-200">
+                + Agregar Cliente
+            </a>
         </div>
-        
 
         <input 
-    type="text"
-    placeholder="Buscar cliente por nombre o número..."
-    class="px-4 py-2 border rounded-lg w-full 
-           sm:w-80 md:w-96 lg:w-[28rem]
-           focus:outline-none focus:ring-2 focus:ring-[#0E247B]"
->
+            type="text"
+            placeholder="Buscar cliente por nombre o número..."
+            class="px-4 py-2 border rounded-lg w-full 
+                   sm:w-80 md:w-96 lg:w-[28rem]
+                   focus:outline-none focus:ring-2 focus:ring-[#0E247B]"
+        >
     </div>
 
     <!-- Grid de clientes -->
@@ -85,9 +89,6 @@
                 </button>
             </div>
         </div>
-
-        <!-- Copia las cards restantes si las necesitas -->
-        <!-- Solo duplicas la estructura de arriba -->
 
     </div>
 
