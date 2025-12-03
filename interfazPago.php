@@ -19,15 +19,33 @@
                     <h2 class="text-xl font-bold mb-4">Ingresa.-</h2>
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-sm font-medium text-gray-800 mb-2">Tipo de Pago:</label>
-                             <label class="block text-sm font-medium text-gray-500 mb-2">Tarjeta: <input type="checkbox"></label>
-                             <label class="block text-sm font-medium text-gray-500 mb-2">Efectivo: <input type="checkbox"></label>
-                             <label class="block text-sm font-medium text-gray-500 mb-2">Transferencia: <input type="checkbox"></label>
-                             <label class="block text-sm font-medium text-gray-500 mb-2">Cheques: <input type="checkbox"></label>
-                             
+                            <label class="block text-sm font-medium text-gray-800 mb-2">Producto:</label>
+                            <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md bg-gray-300 select-none" readonly placeholder="Audifonos, Telefono...">
                         </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-800 mb-2">Tipo de Pago:</label>
+
+                        <label class="block text-sm font-medium text-gray-500 mb-2">
+                            Tarjeta: <input type="radio" name="tipoPago" value="tarjeta">
+                        </label>
+                        <label class="block text-sm font-medium text-gray-500 mb-2">
+                            Efectivo: <input type="radio" name="tipoPago" value="efectivo">
+                        </label>
+                        <label class="block text-sm font-medium text-gray-500 mb-2">
+                            Transferencia: <input type="radio" name="tipoPago" value="transferencia">
+                        </label>
+                        <label class="block text-sm font-medium text-gray-500 mb-2">
+                            Cheques: <input type="radio" name="tipoPago" value="cheques">
+                        </label>
+                    </div>
+
                         <div>
                             <label class="block text-sm font-medium text-gray-800 mb-2">Cantidad:</label>
+                            <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md" placeholder="0">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-800 mb-2">precio:</label>
                             <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md" placeholder="$0000.00">
                         </div>
                     </div>
