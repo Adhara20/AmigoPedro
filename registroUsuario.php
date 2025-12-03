@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- npx @tailwindcss/cli -i css/tailwind.css -o src/output.css --watch -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar Cliente</title>
@@ -30,6 +31,19 @@
                 p-8 rounded-2xl shadow-2xl border border-[#0E247B33]">
 
         <form class="space-y-6">
+
+            <!-- Numero -->
+            <div>
+                <label class="block text-md font-medium text-gray-700 mb-1">
+                    Número de Cliente
+                    
+                </label>
+                <input type="text" readonly
+                    class="block w-full px-3 py-2 text-base bg-gray-300 rounded-md border border-gray-300 
+                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
+                           placeholder:text-gray-400 transition duration-150"
+                    value="#142" required>
+            </div>
 
             <!-- Nombre -->
             <div>
