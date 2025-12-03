@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link href="src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>   
 </head>
 
 <body class="bg-cover bg-no-repeat bg-center min-h-screen"
