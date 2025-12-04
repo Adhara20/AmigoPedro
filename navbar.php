@@ -52,6 +52,9 @@
                 <a href="lista_Producto.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Productos</a>
                 </a>
+                <a href="lista_ventas.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Venta</a>
+                </a>
                 <a href="listaClientes.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Clientes</a>
                 </a>
