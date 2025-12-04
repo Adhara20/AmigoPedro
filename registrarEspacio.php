@@ -7,7 +7,7 @@
     <!-- npx @tailwindcss/cli -i css/tailwind.css -o src/output.css --watch -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Cliente</title>
+    <title>Registrar Anaquel</title>
     <link href="src/output.css" rel="stylesheet">
 </head>
 
@@ -81,7 +81,7 @@
             <div class="flex gap-4 pt-2">
 
                 <!-- Botón Cancelar -->
-                <button onclick="window.location.href='listaEspacios.php'"
+                <button type="button" onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-red-600 border border-red-600
                            hover:bg-red-700
@@ -91,7 +91,7 @@
                 </button>
                 
                 <!-- Botón Registrar -->
-                <button onclick="window.location.href='listaEspacios.php'"
+                <button type="button" onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]

@@ -17,7 +17,7 @@
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div class="flex items-center gap-4">
             <h1 class="text-5xl font-bold text-[#0d1c57]">Anaqueles</h1>
-            <a href="registrar_anaquel.php" 
+            <a href="registrarEspacio.php" 
                class="py-2 px-4 bg-green-100 text-green-400 rounded-lg shadow-md border text-green-400 font-bold
             hover:bg-green-400 hover:text-green-100 transition duration-200">
                 + Agregar Anaquel
@@ -45,7 +45,7 @@
             </p>
 
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarEspacio.php'" class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
@@ -67,7 +67,7 @@
             </p>
 
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarEspacio.php'" class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
@@ -89,7 +89,7 @@
             </p>
 
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarEspacio.php'"y class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">

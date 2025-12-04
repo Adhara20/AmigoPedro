@@ -43,9 +43,9 @@
                 <span class="text-gray-400">Núm. Cliente:</span> #02340
             </p>
             <p class="text-gray-600">aide123@gmail.com</p>
-
+                
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarCliente.php'" class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
@@ -61,9 +61,9 @@
                 <span class="text-gray-400">Núm. Cliente:</span> #02340
             </p>
             <p class="text-gray-600">aide123@gmail.com</p>
-
+                
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarCliente.php'" class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
@@ -79,9 +79,9 @@
                 <span class="text-gray-400">Núm. Cliente:</span> #02340
             </p>
             <p class="text-gray-600">aide123@gmail.com</p>
-
+                
             <div class="flex gap-3 mt-4">
-                <button class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                <button onclick="document.location='editarCliente.php'" class="flex-1 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
                     Editar
                 </button>
                 <button class="flex-1 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">

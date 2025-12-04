@@ -47,13 +47,19 @@
 
             <!-- Opciones del menú -->
             <nav class="space-y-2">
-                <a href="index.php"
+                <a href="inicio.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Inicio</a>
+                <a href="lista_Producto.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Productos</a>
+                </a>
+                <a href="listaClientes.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Clientes</a>
+                </a>
+                <a href="listaEspacios.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Espacios</a>
+                </a>
                 <a href="configuracion.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Configuración</a>
-                </a>
-                <a href="interfazPago.php"
-                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Pagos</a>
                 </a>
             </nav>
         </div>
