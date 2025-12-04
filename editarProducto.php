@@ -157,8 +157,12 @@
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
                            transition duration-200 shadow-md hover:shadow-xl active:scale-95
-                           rounded-lg">
-                    Guardar Cambios
+                           rounded-lg"
+                           >
+                           <a href="Lista_producto.php">
+                                Guardar cambios
+                           </a>
+                    
                 </button>
 
             </div>
