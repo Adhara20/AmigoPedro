@@ -163,14 +163,17 @@
                 </a>
                 
                 <!-- Botón Registrar Venta -->
-                <button type="button"
-                    class="w-1/2 py-3 px-4 text-lg font-semibold text-white
+                 <a href="lista_ventas.php"
+          class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
                            transition duration-200 shadow-md hover:shadow-xl active:scale-95
                            rounded-lg">
                     Registrar Venta
-                </button>
+
+                 
+                 </a>
+                 
             </div>
 
         </form>
