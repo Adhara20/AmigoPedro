@@ -52,15 +52,19 @@
                 <a href="lista_Producto.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Productos</a>
                 </a>
+                     <a href="Lista_ventas.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Ventas</a>
+                </a>
                 <a href="listaClientes.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Clientes</a>
                 </a>
                 <a href="listaEspacios.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Espacios</a>
                 </a>
-                <a href="configuracion.php"
+                   <a href="configuracion.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Configuración</a>
                 </a>
+           
             </nav>
         </div>
     </aside>
