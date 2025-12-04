@@ -175,7 +175,8 @@
                            bg-red-600 border border-red-600
                            hover:bg-red-700
                            transition duration-200 shadow-md hover:shadow-xl active:scale-95
-                           rounded-lg">
+                           rounded-lg"
+                           href="Lista_producto.php">
                     Cancelar
                 </button>
                 
@@ -185,8 +186,12 @@
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
                            transition duration-200 shadow-md hover:shadow-xl active:scale-95
-                           rounded-lg">
-                    Registrar
+                           rounded-lg"
+                           >
+                           <a href="Lista_producto.php">
+                            Registrar
+                           </a>
+                    
                 </button>
 
             </div>
