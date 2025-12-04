@@ -4,11 +4,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- npx @tailwindcss/cli -i css/tailwind.css -o src/output.css --watch -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar Cliente</title>
     <link href="src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>   
 </head>
 
 <body class="bg-cover bg-no-repeat bg-center min-h-screen"
@@ -31,19 +31,6 @@
 
         <form class="space-y-6">
 
-            <!-- Numero -->
-            <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">
-                    Número de Cliente
-                    
-                </label>
-                <input type="text" readonly
-                    class="block w-full px-3 py-2 text-base bg-gray-300 rounded-md border border-gray-300 
-                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
-                           placeholder:text-gray-400 transition duration-150"
-                    value="#142" required>
-            </div>
-
             <!-- Nombre -->
             <div>
                 <label class="block text-md font-medium text-gray-700 mb-1">Nombres <span class="text-red-500 mb-2 font-bold"> * </span></label>
@@ -62,16 +49,6 @@
                            focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
                            placeholder:text-gray-400 transition duration-150"
                     placeholder="Apellido" required>
-            </div>
-
-            <!-- Teléfono -->
-            <div>
-                <label class="block text-md font-medium text-gray-700 mb-1">Teléfono</label>
-                <input type="text"
-                    class="block w-full px-3 py-2 text-base rounded-md border border-gray-300 
-                           focus:outline-none focus:ring-2 focus:ring-[#0E247B] focus:border-transparent
-                           placeholder:text-gray-400 transition duration-150"
-                    placeholder="+52 55 1234 5678" required>
             </div>
 
             <!-- Correo -->
@@ -108,7 +85,7 @@
             <div class="flex gap-4 pt-2">
 
                 <!-- Botón Cancelar -->
-                <button onclick="window.location.href='listaClientes.php'"
+                <button 
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-red-600 border border-red-600
                            hover:bg-red-700
@@ -118,7 +95,7 @@
                 </button>
                 
                 <!-- Botón Registrar -->
-                <button onclick="window.location.href='listaClientes.php'" 
+                <button 
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
