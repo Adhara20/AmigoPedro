@@ -104,7 +104,7 @@
                 </button>
                 
                 <!-- Botón Guardar -->
-                <button type="button" onclick="window.location.href='detalleCliente.php'"
+                <button type="button" onclick="window.location.href='listaClientes.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
