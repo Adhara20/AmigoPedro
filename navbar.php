@@ -64,6 +64,11 @@
                    <a href="configuracion.php"
                     class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Configuración</a>
                 </a>
+                
+                </a>
+                   <a href="lista_promocion.php"
+                    class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 text-gray-700">Promociones</a>
+                </a>
            
             </nav>
         </div>
