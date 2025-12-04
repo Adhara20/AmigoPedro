@@ -12,15 +12,17 @@
     <main class="pt-20 px-4 pb-8">
         <div class="mx-auto py-8 max-w-2xl">
 
-            <h1 class="text-3xl font-bold mb-8 mt-3">Pagos</h1>
+            <div class="sm:mx-auto sm:w-full sm:max-w-sm flex items-center justify-center gap-4">
+        <img src="img/logoInvertido.jpg" alt="Logo" class="h-20">
+        <h2 class="text-2xl font-bold text-gray-900">Registrar nueva venta</h2>
+    </div>
 
             <div class="bg-white rounded-lg shadow-2xl p-6 space-y-6">
                 <div class="border-b border-gray-200 pb-6">
-                    <h2 class="text-xl font-bold mb-4">Ingresa.-</h2>
                     <div class="space-y-4">
                         <div>
                             <label class="block text-sm font-medium text-gray-800 mb-2">Producto:</label>
-                            <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md bg-gray-300 select-none" readonly placeholder="Audifonos, Telefono...">
+                            <input type="text" value="" class="w-full p-2 border border-gray-300 rounded-md" placeholder="Audifonos, Telefono...">
                         </div>
 
                     <div>
@@ -45,7 +47,7 @@
                             <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md" placeholder="0">
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-gray-800 mb-2">precio:</label>
+                            <label class="block text-sm font-medium text-gray-800 mb-2">Precio:</label>
                             <input type="number" value="" class="w-full p-2 border border-gray-300 rounded-md" placeholder="$0000.00">
                         </div>
                     </div>
@@ -53,12 +55,14 @@
                 
                 <!-- Botones -->
             <div class="flex pt-4 gap-4">
-                <button class="w-1/2 flex justify-center rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white hover:bg-red-600">
+                <button onclick="document.location='lista_ventas.php'"
+                 class="w-1/2 flex justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white hover:bg-red-700">
                     Cancelar
                 </button>
 
-                <button class="w-1/2 flex justify-center rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white hover:bg-blue-600">
-                    Guardar Cambios
+                <button onclick="document.location='lista_ventas.php'"
+                class="w-1/2 flex justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white hover:bg-blue-700">
+                    Guardar venta
                 </button>
                 </div>
 
