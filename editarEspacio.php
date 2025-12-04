@@ -7,7 +7,7 @@
     <!-- npx @tailwindcss/cli -i css/tailwind.css -o src/output.css --watch -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Cliente</title>
+    <title>Editar Anaquel</title>
     <link href="src/output.css" rel="stylesheet">
 </head>
 
@@ -22,7 +22,7 @@
     <!-- Logo + título en línea -->
     <div class="sm:mx-auto sm:w-full sm:max-w-sm flex items-center justify-center gap-4">
         <img src="img/logoInvertido.jpg" alt="Logo" class="h-20">
-        <h2 class="text-2xl font-bold text-gray-900">Registrar Nuevo Anaquel</h2>
+        <h2 class="text-2xl font-bold text-gray-900">Editar Anaquel</h2>
     </div>
 
     <!-- Contenedor del formulario -->
@@ -79,7 +79,7 @@
             <div class="flex gap-4 pt-2">
 
                 <!-- Botón Cancelar -->
-                <button onclick="window.location.href='listaEspacios.php'"
+                <button type="button" onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-red-600 border border-red-600
                            hover:bg-red-700
@@ -89,7 +89,7 @@
                 </button>
                 
                 <!-- Botón Registrar -->
-                <button onclick="window.location.href='listaEspacios.php'"
+                <button type="button" onclick="window.location.href='listaEspacios.php'"
                     class="w-1/2 py-3 px-4 text-lg font-semibold text-white
                            bg-[#0E247B] border border-[#0E247B]
                            hover:bg-[#122E9B]
